@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: uk.co.trycatchfinallysoftware.FirstIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.424 sec <<< FAILURE! - in uk.co.trycatchfinallysoftware.FirstIntegrationTest
+failForBatman(uk.co.trycatchfinallysoftware.FirstIntegrationTest)  Time elapsed: 0.061 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "Batman"
+     but: was "Spiderman"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at uk.co.trycatchfinallysoftware.FirstIntegrationTest.failForBatman(FirstIntegrationTest.java:30)
+
